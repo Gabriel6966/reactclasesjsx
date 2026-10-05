@@ -3,21 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Contador from './components/Contador';
-import DibujosComplejosRender from './components/DibujosComplejosRender';
+import PadreNumeros from './components/PadreNumeros';
+import Comics from './components/Comics';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/*}<Contador inicio="5"/>
-    <Contador inicio="15"/>
-    */}
-
-    {/*  <DibujosComplejosArray/>
-*/}
-    
-    <DibujosComplejosRender/>
-
+    <Comics/>
   </React.StrictMode>
 );
 
