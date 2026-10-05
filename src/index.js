@@ -4,11 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Contador from './components/Contador';
+import DibujosComplejosRender from './components/DibujosComplejosRender';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Contador/>
+    {/*}<Contador inicio="5"/>
+    <Contador inicio="15"/>
+    */}
+
+    {/*  <DibujosComplejosArray/>
+*/}
+    
+    <DibujosComplejosRender/>
+
   </React.StrictMode>
 );
 
